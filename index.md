@@ -9,6 +9,11 @@ HTC Vive Virtual Reality Tech Demo: Developed a tech demo as a part of a group o
 [![](https://i.imgur.com/dV03lHS.png)](https://youtu.be/YwQvI2yOoqs "Vive Tech Demo Video")
 [Report](https://drive.google.com/open?id=0BzbIg8VAE2WqSEM5UW45QnZRc1E)
 
+### Finger Counting
+System to count fingers being held up on images through a series of image analysis techniques. The hand is first segmented out of the background using colour segmentation using the k-means algorithm. After some cleaning of noise, the fingers are segmented from the hand using morphological operations. Thumbs are detected by calculating the gradients of the fingers and discarding any thumb-like anomalies. The remaining fingers are then counted to produce the result
+
+<img src="https://i.imgur.com/DjCVNLb.png" width="410"><img src="https://i.imgur.com/dGLYxIx.png" width="410">
+
 ### [Cloud Gaming and Simulation in Distributed Systems](https://github.com/kvcruzat/cloudgaming)
 Reduced the latency within the networking in the cloud through Software-Defined Networking (SDN). Cloud gaming takes advantage of cloud technologies to offload processing away from the player and uses networking to send game inputs to the cloud and to send the frames as a result back to the player in the form of video data stream. SDN was used by deploying a dynamic load balancer application on to the network to deal with high network traffic which ultimately improved network latency so a player’s gameplay experience would be improved with this reduction of lag.
 
@@ -27,7 +32,7 @@ Programmed a Twitter Bot that receives currency conversion requests in the form 
 <img src="https://i.imgur.com/lASJUeR.png" width="410"><img src="https://i.imgur.com/61DXmnp.png" width="410">
 
 ### Event Ticketing System (Android)
-Developed an Android app that provides a system to track upcoming gigs and concerts and a method to purchase tickets for them. The main aim of the project was to experience using Agile techniques and to use real world software engineering techniques such as using Git for version control.
+Developed an Android app that provides a system to track upcoming gigs and concerts and a method to purchase tickets for them. The system uses an Android front-end client which communicates to a remote server that handles network requests for database information. The main aim of the project was to experience using Agile techniques and to use real world software engineering techniques such as using Git for version control.
 
 <img src="https://i.imgur.com/gq8FFNl.png" width="275"><img src="https://i.imgur.com/K0GlIwJ.png" width="275"><img src="https://i.imgur.com/0xXnVbx.png" width="275"><img src="https://i.imgur.com/piGo8dO.png" width="275"><img src="https://i.imgur.com/0epSX3P.png" width="275"><img src="https://i.imgur.com/O8zbETP.png" width="500">
 
