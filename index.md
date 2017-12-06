@@ -1,5 +1,5 @@
 ## Khen Cruzat
-I'm a developer and recent graduate of the University of Leeds.
+I'm a developer and recent MEng, BSc Computer Science graduate of the University of Leeds with First Class Honours.
 
 ## Project Portfolio
 
